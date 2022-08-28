@@ -1,0 +1,159 @@
+* {
+  font-family: 'Montserrat', arial;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+
+body {
+    background: #E9E9E9;
+
+}
+
+
+  .navbar a:hover {
+    background: #efcf00;
+  }
+
+@media (max-width: 1024px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+.logo {
+  width: 100px;
+  display: none;
+}
+
+.gallery-container {
+  display: grid;
+  justify-content: center;
+  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  padding: 0 30px;
+  margin: 10px;
+  grid-gap: 10px;
+}
+
+.titulo-galeria {
+  text-align: center;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+}
+
+
+.gallery__item:nth-child(1) {
+  grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(2) {
+  grid-row-start: span 3;
+  grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(3) {
+  grid-column-start: span 3;
+  grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(4) {
+  grid-column-start: span 1;
+}
+
+.gallery__item:nth-child(6) {
+  grid-column-start: span 2;
+}
+}
+
+      /* Resoluciones mayores a 1024px */
+
+@media (min-width: 1024px) {
+  .gallery-container {
+    grid-template-columns: repeat(5, 1fr);
+    }
+
+
+.gallery-container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  padding: 60px;
+  grid-gap: 10px;
+}
+
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+}
+
+
+.gallery__item:nth-child(1) {
+  grid-row-start: span 4;
+}
+
+.gallery__item:nth-child(2) {
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(3) {
+  grid-column-start: span 3;
+  grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(5) {
+  grid-column-start: span 5;
+  grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(4) {
+  grid-column-start: span 5;
+    grid-row-start: span 2;
+
+}
+}
+
+
+footer{
+    background: #dfdfdf;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.content-foo{
+  text-align: center;
+
+}
+
+.content-foo h4{
+  font-size: 1.3rem;
+    color: #000;
+    border-bottom: 3px solid #efcf00;
+}
+
+.content-foo p{
+  font-size: 1.3rem;
+    color: #000;
+}
+
