@@ -1,0 +1,26 @@
+@import "./utils/variables";
+@import "./utils/helpers";
+@import "./utils/maxins";
+@import "./utils/functions";
+
+@import "./vendors/bootstrap";
+@import "./vendors/jquery-ui";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./layout/footer";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/navigation";
+
+@import "./components/buttons";
+@import "./components/cards";
+@import "./components/carousel";
+
+@import "./pages/index";
+@import "./pages/about-us";
+@import "./pages/contacto";
+@import "./pages/galeria";
+@import "./pages/productos";
+

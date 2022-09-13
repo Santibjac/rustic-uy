@@ -1,0 +1,12 @@
+
+
+.row .col .card img{
+    filter: grayscale(65%);
+}
+    &:hover {
+    filter: grayscale(0%);
+    transition: 1.3s;
+   
+.card-text {
+    margin: 15px;
+}
